@@ -44,3 +44,7 @@ Thumbs.db
 .github/instructions/nx.instructions.md
 
 error.log
+
+.angular
+
+vitest.config.*.timestamp*

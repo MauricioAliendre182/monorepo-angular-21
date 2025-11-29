@@ -14,7 +14,12 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@monorepo-angular-21/utils-common": [
+        "packages/utils-common/src/index.ts"
+      ],
+      "@monorepo-angular-21/ui-shared": ["packages/ui-shared/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

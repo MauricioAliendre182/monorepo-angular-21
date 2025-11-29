@@ -1,0 +1,16 @@
+{
+  "name": "@monorepo-angular-21/utils-common",
+  "version": "0.0.1",
+  "private": true,
+  "type": "commonjs",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "peerDependencies": {
+    "@angular/common": "~20.3.0",
+    "@angular/core": "~20.3.0",
+    "rxjs": "~7.8.0"
+  }
+}
